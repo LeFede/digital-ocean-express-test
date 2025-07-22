@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   res.json({ message: "🚀 Hello world!", env: process.env.TAL });
 });
 
-const PORT = 8080;
+const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`App listening on port ${8080}`);
+  console.log(`App listening on port ${3000}`);
 });
